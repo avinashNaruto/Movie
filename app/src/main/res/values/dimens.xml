@@ -1,0 +1,348 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+        <!-- Default screen margins, per the Android Design guidelines. -->
+        <dimen name="product_image_view">85dp</dimen>
+        <dimen name="font_size_description">11sp</dimen>
+        <dimen name="add_remove_button_width">95dp</dimen>
+        <dimen name="add_button_width">24dp</dimen>
+        <dimen name="add_button_margin_top">8dp</dimen>
+        <dimen name="remove_button_width">24dp</dimen>
+        <dimen name="font_size_quantity">15sp</dimen>
+        <dimen name="top_margin_add_del_product">13dp</dimen>
+        <dimen name="bottom_margin_add_del_product">6dp</dimen>
+
+        <dimen name="variant_grid_view_width">69dp</dimen>
+        <dimen name="variant_item_font_size">10sp</dimen>
+
+        <dimen name="notify_button_text">10sp</dimen>
+        <dimen name="notify_button_width">70dp</dimen>
+        <dimen name="notify_button_height">32dp</dimen>
+        <dimen name="notify_button_margin_top">12dp</dimen>
+
+        <integer name="number_of_columns">3</integer>
+        <dimen name="product_scroller_height">220dp</dimen>
+        <dimen name="product_scroller_width">155dp</dimen>
+        <dimen name="product_scroller_description_padding_left">15dp</dimen>
+        <dimen name="product_scroller_description_padding_right">10dp</dimen>
+        <dimen name="product_scroller_description_margin_top">16dp</dimen>
+        <dimen name="product_scroller_description_margin_bottom">14dp</dimen>
+        <dimen name="product_scroller_description_margin_left">8dp</dimen>
+        <dimen name="product_scroller_heading_margin_bottom">10dp</dimen>
+        <dimen name="product_scroller_heading_font_size">13sp</dimen>
+        <dimen name="product_scroller_view_all_button_height">28dp</dimen>
+        <dimen name="product_scroller_view_all_button_font_size">10sp</dimen>
+        <dimen name="profile_picture_all_margin">13dp</dimen>
+        <dimen name="profile_picture_size">100dp</dimen>
+        <dimen name="profile_picture_padding_right">10dp</dimen>
+        <dimen name="profile_picture_padding_left">10dp</dimen>
+        <dimen name="profile_picture_padding_top">8dp</dimen>
+        <dimen name="profile_picture_padding_bottom">8dp</dimen>
+        <dimen name="profile_user_name_margin_top">13dp</dimen>
+        <dimen name="profile_user_name_padding_top_left">13dp</dimen>
+
+        <dimen name="my_order_inside_element_padding_left_right">13dp</dimen>
+        <dimen name="my_order_inside_element_padding_top_bottom">5dp</dimen>
+        <dimen name="my_order_expandable_list_child_text_size">12sp</dimen>
+        <dimen name="my_order_divider_height">1px</dimen>
+        <!-- Default screen margins, per the Android Design guidelines. -->
+
+        <dimen name="edit_field_margin_right">13dp</dimen>
+        <dimen name="edit_field_margin_left">13dp</dimen>
+        <dimen name="edit_first_field_margin_top">38dp</dimen>
+
+        <dimen name="fb_button_margin_top">15dp</dimen>
+        <dimen name="fb_button_margin_bottom">75dp</dimen>
+
+
+        <dimen name="edit_field_margin_top">4dp</dimen>
+        <dimen name="edit_field_margin_bottom">4dp</dimen>
+
+        <dimen name="edit_field_font_size">15sp</dimen>
+        <dimen name="edit_field_padding_right">8dp</dimen>
+        <dimen name="edit_field_padding_left">8dp</dimen>
+        <dimen name="edit_field_padding_top">8dp</dimen>
+        <dimen name="edit_field_padding_bottom">8dp</dimen>
+
+        <dimen name="edit_field_header_font_size">10sp</dimen>
+        <dimen name="edit_field_header_padding_right">8dp</dimen>
+        <dimen name="edit_field_header_padding_left">13dp</dimen>
+        <dimen name="edit_field_header_padding_top">10dp</dimen>
+        <dimen name="edit_field_header_padding_bottom">4dp</dimen>
+
+        <dimen name="intial_text_view_margin_left">2dp</dimen>
+
+        <dimen name="text_field_font_size">13sp</dimen>
+        <dimen name="text_field_padding_right">8dp</dimen>
+        <dimen name="text_field_padding_left">8dp</dimen>
+        <dimen name="text_field_padding_top">4dp</dimen>
+        <dimen name="text_field_padding_bottom">4dp</dimen>
+
+        <dimen name="button_font_size">15sp</dimen>
+        <dimen name="button_padding_right">4dp</dimen>
+        <dimen name="button_padding_left">4dp</dimen>
+        <dimen name="button_padding_top">4dp</dimen>
+        <dimen name="button_padding_bottom">4dp</dimen>
+        <dimen name="button_margin_left">8dp</dimen>
+        <dimen name="button_margin_right">10dp</dimen>
+        <dimen name="button_margin_top">3dp</dimen>
+        <dimen name="button_margin_bottom">4dp</dimen>
+
+        <dimen name="button_height">35dp</dimen>
+        <dimen name="login_button_width">88dp</dimen>
+        <dimen name="fb_login_button_height">43dp</dimen>
+        <dimen name="button_to_parent_margin_left">13dp</dimen>
+        <dimen name="button_to_parent_margin_right">13dp</dimen>
+        <dimen name="button_to_parent_margin_top">4dp</dimen>
+        <dimen name="button_to_parent_margin_bottom">4dp</dimen>
+        <dimen name="payment_options_button_padding_left">10dp</dimen>
+        <dimen name="apply_coupon_divider_margin_top">20dp</dimen>
+
+        <dimen name="payment_details_redeem_zoppies_text_size">15sp</dimen>
+        <dimen name="payment_details_redeem_zoppies_margin_top">6dp</dimen>
+        <dimen name="payment_details_redeem_zoppies_edit_text_margin_right">9dp</dimen>
+
+        <dimen name="navigation_image_height">125dp</dimen>
+
+        <dimen name="signup_spinner_padding_all">7dp</dimen>
+        <dimen name="spinner_touch_point_default_text_view_width">110dp</dimen>
+
+        <dimen name="add_address_button_padding_left">13dp</dimen>
+        <dimen name="add_address_button_padding_right">13dp</dimen>
+        <dimen name="add_new_address_margin_top">19dp</dimen>
+        <dimen name="reset_update_password_button_width">87dp</dimen>
+        <dimen name="otp_button_to_parent_margin_top">2dp</dimen>
+
+        <dimen name="text_field_address_margin_top">13dp</dimen>
+        <dimen name="text_field_address_margin_Left">5dp</dimen>
+        <dimen name="signup_checkbox_margin_Bottom">13dp</dimen>
+        <dimen name="signup_checkbox_margin_Left">6dp</dimen>
+        <dimen name="address_pincode_margin_right">6dp</dimen>
+
+        <dimen name="list_item_text_view_font_size">15sp</dimen>
+        <dimen name="list_item_text_view_padding_right">12dp</dimen>
+        <dimen name="list_item_text_view_padding_left">12dp</dimen>
+        <dimen name="list_item_text_view_padding_top">12dp</dimen>
+        <dimen name="list_item_text_view_padding_bottom">12dp</dimen>
+
+        <dimen name="cart_list_item_text_view_not_clickable_font_size">12sp</dimen>
+        <dimen name="cart_list_item_text_view_not_clickable_margin_right">8dp</dimen>
+        <dimen name="cart_list_item_text_view_not_clickable_margin_left">8dp</dimen>
+        <dimen name="cart_list_item_text_view_not_clickable_margin_top">5dp</dimen>
+        <dimen name="cart_list_item_text_view_not_clickable_margin_bottom">5dp</dimen>
+
+        <dimen name="list_item_text_view_not_clickable_font_size">12sp</dimen>
+        <dimen name="list_item_text_view_not_clickable_margin_right">8dp</dimen>
+        <dimen name="list_item_text_view_not_clickable_margin_left">8dp</dimen>
+        <dimen name="list_item_text_view_not_clickable_margin_top">5dp</dimen>
+        <dimen name="list_item_text_view_not_clickable_margin_bottom">5dp</dimen>
+
+        <dimen name="my_zoppies_transaction_header_text_view_font_size">15sp</dimen>
+        <dimen name="my_zoppies_transaction_header_text_view_margin_left">8dp</dimen>
+        <dimen name="my_zoppies_transaction_header_text_view_margin_right">8dp</dimen>
+        <dimen name="my_zoppies_transaction_header_text_view_margin_top">8dp</dimen>
+
+        <dimen name="my_zoppies_transaction_history_text_view_font_size">11sp</dimen>
+        <dimen name="my_zoppies_transaction_history_text_view_margin_top">10dp</dimen>
+        <dimen name="my_zoppies_transaction_history_text_view_margin_bottom">10dp</dimen>
+        <dimen name="my_zoppies_transaction_history_text_view_margin_right">10dp</dimen>
+        <dimen name="my_zoppies_transaction_history_text_view_margin_left">10dp</dimen>
+
+        <dimen name="section_header_text_view_font_size">13sp</dimen>
+        <dimen name="section_header_text_view_padding_right">0dp</dimen>
+        <dimen name="section_header_text_view_padding_left">8dp</dimen>
+        <dimen name="section_header_text_view_padding_top">0dp</dimen>
+        <dimen name="section_header_text_view_padding_bottom">10dp</dimen>
+
+        <dimen name="offer_image_width_height">37dp</dimen>
+
+        <dimen name="pay_online_now_button_text_size">20sp</dimen>
+        <dimen name="pay_online_now_button_height">54dp</dimen>
+        <dimen name="pay_online_now_button_margin_top">18dp</dimen>
+
+        <dimen name="image_button_checkout_width">110dp</dimen>
+        <dimen name="image_button_checkout_height">49dp</dimen>
+
+        <dimen name="widget_padding_bottom">15dp</dimen>
+        <dimen name="widget_padding_top">8dp</dimen>
+
+        <dimen name="nav_header_vertical_spacing">16dp</dimen>
+
+        <dimen name="wallet_widget_rs_button_padding_top">25dp</dimen>
+        <dimen name="wallet_widget_rs_button_padding_bottom">25dp</dimen>
+        <dimen name="wallet_widget_rs_button_font_size">18sp</dimen>
+        <dimen name="wallet_widget_rs_button_margin_top">8dp</dimen>
+
+        <dimen name="payment_status_text_view_font_size">18sp</dimen>
+        <dimen name="payment_status_text_view_margin_left">12sp</dimen>
+        <dimen name="payment_status_text_view_margin_top">20sp</dimen>
+        <dimen name="payment_status_text_view_margin_bottoom">20sp</dimen>
+
+        <dimen name="progress_bar_height">122dp</dimen>
+        <dimen name="progress_bar_width">122dp</dimen>
+
+        <dimen name="progress_bar_height_small">60dp</dimen>
+        <dimen name="progress_bar_width_small">60dp</dimen>
+
+        <dimen name="variant_button_height">73dp</dimen>
+        <dimen name="variant_button_width">73dp</dimen>
+        <dimen name="variant_button_text_size">12sp</dimen>
+
+        <dimen name="product_name_padding">13dp</dimen>
+        <dimen name="product_name_text_size">17sp</dimen>
+        <dimen name="product_image_layout_height">190dp</dimen>
+        <dimen name="product_image_height">170dp</dimen>
+        <dimen name="product_image_width">170dp</dimen>
+        <dimen name="product_image_margin_top">25dp</dimen>
+        <dimen name="product_offer_image_height">63dp</dimen>
+        <dimen name="product_offer_image_width">63dp</dimen>
+        <dimen name="product_detail_quantity_padding_left">6dp</dimen>
+        <dimen name="product_detail_quantity_padding_right">6dp</dimen>
+        <dimen name="product_detail_add_image_margin_top">10dp</dimen>
+        <dimen name="product_detail_notify_margin_right">6dp</dimen>
+        <dimen name="product_quantity_width">25dp</dimen>
+        <dimen name="product_detail_default_text_size">8sp</dimen>
+        <dimen name="product_detail_defaulttext_padding">13dp</dimen>
+        <dimen name="product_detail_list_margin_left">13dp</dimen>
+        <dimen name="product_detail_list_margin_right">13dp</dimen>
+        <dimen name="product_detail_description_text_size">15sp</dimen>
+        <dimen name="product_detail_description_padding">13dp</dimen>
+        <dimen name="variant_expandable_list_margin">13dp</dimen>
+        <dimen name="variant_expandable_list_horizontal_spacing">13dp</dimen>
+        <dimen name="variant_expandable_list_vertical_spacing">13dp</dimen>
+        <dimen name="product_detail_info_padding_top">5dp</dimen>
+        <dimen name="product_detail_info_padding_bottom">5dp</dimen>
+        <dimen name="product_detail_info_text_size">13sp</dimen>
+
+        <dimen name="address_widget_text_view_margin_right">75dp</dimen>
+
+        <dimen name="login_forgot_password_text_view_font_size">12sp</dimen>
+        <dimen name="login_forgot_password_text_view_padding_left">20dp</dimen>
+        <dimen name="login_forgot_password_text_view_padding_top">2dp</dimen>
+        <dimen name="login_forgot_password_text_view_padding_bottom">8dp</dimen>
+        <dimen name="login_forgot_password_text_view_padding_right">12dp</dimen>
+        <dimen name="login_retrieve_password_button_padding_left">13dp</dimen>
+        <dimen name="login_retrieve_password_button_padding_right">13dp</dimen>
+
+        <dimen name="address_drop_down_list_text_size">10sp</dimen>
+
+        <dimen name="address_drop_down_image_padding_right">12dp</dimen>
+        <dimen name="user_profile_picture_text_view_margin_top">15dp</dimen>
+
+        <dimen name="refer_message_text_font_size">15sp</dimen>
+
+        <dimen name="edit_field_redeem_zoppies_margin_top">4dp</dimen>
+        <dimen name="place_order_button_height">54dp</dimen>
+        <dimen name="place_order_button_margin_bottom">30dp</dimen>
+        <dimen name="place_order_button_margin_top">12dp</dimen>
+        <dimen name="place_order_button_text_size">18sp</dimen>
+
+        <dimen name="payment_option_button_text_size">15sp</dimen>
+        <dimen name="payment_option_button_margin_top">8dp</dimen>
+        <dimen name="payment_option_button_margin_bottom">8dp</dimen>
+        <dimen name="payment_option_button_padding_top">7dp</dimen>
+        <dimen name="payment_option_button_padding_bottom">7dp</dimen>
+        <dimen name="payment_option_button_padding_left">12dp</dimen>
+        <dimen name="payment_option_button_height">40dp</dimen>
+        <dimen name="button_corner_radius">3dp</dimen>
+
+        <dimen name="slot_date_height">69dp</dimen>
+        <dimen name="slot_date_width">125dp</dimen>
+        <dimen name="slot_timing_height">62dp</dimen>
+        <dimen name="slot_timing_width">100dp</dimen>
+        <dimen name="slot_date_text_view_size">15sp</dimen>
+        <dimen name="slot_timing_text_view_size">13sp</dimen>
+
+        <dimen name="slot_date_margin_right">12dp</dimen>
+        <dimen name="slot_date_margin_left">12dp</dimen>
+        <dimen name="slot_date_margin_top">4dp</dimen>
+        <dimen name="slot_date_margin_bottom">4dp</dimen>
+
+        <dimen name="slot_timing_margin_top">12dp</dimen>
+
+        <dimen name="address_text_height">25dp</dimen>
+        <dimen name="addressbar_text_size">11sp</dimen>
+        <dimen name="address_text_margin_top">4dp</dimen>
+        <dimen name="address_text_margin_bottom">4dp</dimen>
+        <dimen name="address_text_margin_left">13dp</dimen>
+        <dimen name="address_text_margin_right">63dp</dimen>
+
+        <dimen name="addressbar_dropdown_image_margin_top">13dp</dimen>
+        <dimen name="addressbar_dropdown_image_margin_left">6dp</dimen>
+        <dimen name="addressbar_dropdown_image_margin_right">15dp</dimen>
+        <dimen name="select_area_text_size">10sp</dimen>
+        <dimen name="select_area_padding">13dp</dimen>
+
+        <dimen name="edit_text_pincode_height">33dp</dimen>
+        <dimen name="edit_text_pincode_width">290dp</dimen>
+        <dimen name="edit_text_pincode_text_size">13sp</dimen>
+        <dimen name="edit_text_pincode_padding">8dp</dimen>
+        <dimen name="edit_text_pincode_margin_bottom">18dp</dimen>
+        <dimen name="edit_text_pincode_margin_left">13dp</dimen>
+        <dimen name="edit_text_pincode_margin_right">10dp</dimen>
+
+        <dimen name="pincode_go_button_margin_right">13dp</dimen>
+        <dimen name="pincode_go_button_width">33dp</dimen>
+        <dimen name="pincode_go_button_height">33dp</dimen>
+        <dimen name="address_list_padding_top">10dp</dimen>
+        <dimen name="address_list_padding_bottom">10dp</dimen>
+        <dimen name="address_list_padding_left">13dp</dimen>
+        <dimen name="address_list_padding_right">13dp</dimen>
+
+        <dimen name="my_account_spinner_margin_top">20dp</dimen>
+        <dimen name="my_account_spinner_margin_bottom">20dp</dimen>
+        <dimen name="my_account_spinner_padding">13sp</dimen>
+        <dimen name="my_account_spinner_text_size">16sp</dimen>
+        <dimen name="my_account_spinner_error_text_view_margin_top">11dp</dimen>
+        <dimen name="my_account_spinner_error_text_view_padding_right">20dp</dimen>
+
+        <dimen name="cancel_order_button_height">20dp</dimen>
+        <dimen name="cancel_order_button_width">65dp</dimen>
+        <dimen name="cancel_order_button_text_size">10sp</dimen>
+
+        <dimen name="pay_now_button_height">20dp</dimen>
+        <dimen name="pay_now_button_width">65dp</dimen>
+        <dimen name="pay_now_button_text_size">10sp</dimen>
+
+        <dimen name="nav_header_height">160dp</dimen>
+
+        <dimen name="pay_online_order_summary_margin_top">25dp</dimen>
+        <dimen name="pay_online_order_summary_padding">12dp</dimen>
+
+        <dimen name="thank_you_module_thank_you_order_text_padding">15dp</dimen>
+        <dimen name="thank_you_module_thank_you_order_text_size">15sp</dimen>
+        <dimen name="thank_you_module_response_text_size">15sp</dimen>
+        <dimen name="thank_you_module_response_padding_left">10dp</dimen>
+        <dimen name="thank_you_module_response_padding_top">10dp</dimen>
+        <dimen name="thank_you_module_response_padding_bottom">10dp</dimen>
+        <dimen name="thank_you_module_response_padding_right">10dp</dimen>
+
+        <dimen name="cart_get_offer_module_text_size">15sp</dimen>
+        <dimen name="cart_get_offer_module__padding_left">10dp</dimen>
+        <dimen name="cart_get_offer_module__padding_top">10dp</dimen>
+        <dimen name="cart_get_offer_module__padding_bottom">10dp</dimen>
+        <dimen name="cart_get_offer_module__padding_right">10dp</dimen>
+
+        <dimen name="selected_address_for_delivery_margin_top">4dp</dimen>
+        <dimen name="select_diffrent_area_for_delivery_width">290dp</dimen>
+
+        <fraction name="remove_from_cart_scale_factor_list_grid">250%</fraction>
+        <fraction name="remove_from_cart_scale_factor_product_details">500%</fraction>
+
+        <dimen name="shop_now_button_margin_bottom">110dp</dimen>
+        <dimen name="shop_now_button_height">32dp</dimen>
+        <dimen name="shop_now_button_text_size">11sp</dimen>
+        <dimen name="shop_now_button_padding_right">12dp</dimen>
+        <dimen name="shop_now_button_padding_left">12dp</dimen>
+
+        <dimen name="logo_margin_top">66dp</dimen>
+        <dimen name="pager_item_padding_bottom">125dp</dimen>
+
+        <dimen name="cs_email_margin_top">3dp</dimen>
+
+
+
+</resources>

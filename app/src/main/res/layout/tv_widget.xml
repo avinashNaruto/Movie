@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/DarkGreyText"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:text="Most Popular TV shows"
+            android:textColor="@android:color/white"
+            android:textSize="22sp" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_most_popular_tv_shows"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="10dp"
+            ></android.support.v7.widget.RecyclerView>
+
+        <TextView
+            android:textColor="@android:color/white"
+            android:id="@+id/tv_movies"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:text="TV"
+            android:textSize="30sp"
+             />
+
+        <TextView
+            android:textColor="@android:color/white"
+            android:id="@+id/tv_top_rated"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:text="Top rated"
+            android:textSize="20sp"
+             />
+
+        <TextView
+            android:textColor="@android:color/white"
+            android:visibility="gone"
+            android:id="@+id/tv_lowest_rated"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:text="Lowest Rated"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:textColor="@android:color/white"
+            android:id="@+id/tv_on_the_air"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:text="On The Air                                                                                                                                                        "
+            android:textSize="20sp"
+             />
+
+        <TextView
+            android:textColor="@android:color/white"
+            android:id="@+id/tv_airing_today"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:text="Airing Today"
+            android:textSize="20sp"
+             />
+
+        <TextView
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/tv_popular_genre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:text="Popular TV By Genre"
+            android:textSize="20sp"
+             />
+
+        <TextView
+            android:textColor="@android:color/white"
+            android:gravity="center_horizontal"
+            android:layout_marginBottom="20dp"
+            android:id="@+id/tv_see_all"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:text="See All"
+            android:textSize="25sp"
+             />
+
+    </LinearLayout>
+
+</ScrollView>

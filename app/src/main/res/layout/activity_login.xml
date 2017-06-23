@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="LOGIN"
+        android:id="@+id/tv_login"
+        android:textSize="@dimen/list_item_text_view_font_size"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="@dimen/intial_text_view_margin_left"
+        android:paddingLeft="@dimen/list_item_text_view_padding_left"
+        android:paddingTop="@dimen/list_item_text_view_padding_top"
+        android:paddingBottom="@dimen/list_item_text_view_padding_bottom" />
+
+
+    <EditText
+        android:layout_below="@+id/tv_login"
+        android:layout_marginLeft="@dimen/edit_field_margin_left"
+        android:layout_marginRight="@dimen/edit_field_margin_right"
+        android:layout_marginTop="@dimen/edit_first_field_margin_top"
+        android:layout_marginBottom="@dimen/edit_field_margin_bottom"
+        android:paddingBottom="@dimen/edit_field_padding_bottom"
+        android:paddingRight="@dimen/edit_field_padding_right"
+        android:paddingLeft="@dimen/edit_field_padding_left"
+        android:paddingTop="@dimen/edit_field_padding_top"
+        android:textSize="@dimen/edit_field_font_size"
+        android:textColor="@color/DarkGreyText"
+        android:background="@drawable/add_address_widget_edittext_box"
+        android:id="@+id/et_login_email_phonenumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:singleLine="true"
+        android:textColorHint="@color/NavigationText"
+        android:fontFamily="sans-serif"
+        android:hint="Email">
+    </EditText>
+
+    <EditText
+        android:inputType="textPassword"
+        android:layout_below="@+id/et_login_email_phonenumber"
+        android:layout_marginLeft="@dimen/edit_field_margin_left"
+        android:layout_marginRight="@dimen/edit_field_margin_right"
+        android:layout_marginTop="@dimen/edit_field_margin_top"
+        android:layout_marginBottom="@dimen/edit_field_margin_bottom"
+        android:textColor="@color/DarkGreyText"
+        android:textSize="@dimen/edit_field_font_size"
+        android:paddingBottom="@dimen/edit_field_padding_bottom"
+        android:paddingRight="@dimen/edit_field_padding_right"
+        android:paddingLeft="@dimen/edit_field_padding_left"
+        android:paddingTop="@dimen/edit_field_padding_top"
+        android:background="@drawable/add_address_widget_edittext_box"
+        android:id="@+id/et_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:singleLine="true"
+        android:textColorHint="@color/NavigationText"
+        android:fontFamily="sans-serif"
+        android:hint="Password"
+        >
+    </EditText>
+
+    <Button
+        android:layout_below="@+id/et_password"
+        android:layout_marginLeft="@dimen/button_to_parent_margin_left"
+        android:layout_marginRight="@dimen/button_to_parent_margin_right"
+        android:textStyle="bold"
+        android:textSize="@dimen/button_font_size"
+        android:id="@+id/bt_login"
+        android:layout_width="@dimen/login_button_width"
+        android:layout_height="@dimen/button_height"
+        android:text="Login"
+        android:layout_marginTop="@dimen/button_to_parent_margin_top"
+        android:background="@drawable/add_address_widget_button_background"
+        android:stateListAnimator="@null"
+        android:layout_marginBottom="@dimen/button_margin_bottom"
+        android:textColor="@color/ButtonText"
+        android:lines="1" />
+
+    <Button
+        android:paddingRight="@dimen/login_retrieve_password_button_padding_right"
+        android:paddingLeft="@dimen/login_retrieve_password_button_padding_left"
+        android:visibility="gone"
+        android:layout_below="@+id/et_password"
+        android:layout_marginLeft="@dimen/button_to_parent_margin_left"
+        android:layout_marginRight="@dimen/button_to_parent_margin_right"
+        android:textStyle="bold"
+        android:textSize="@dimen/button_font_size"
+        android:id="@+id/bt_retrieve_password"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/button_height"
+        android:layout_marginTop="@dimen/button_to_parent_margin_top"
+        android:background="@drawable/add_address_widget_button_background"
+        android:stateListAnimator="@null"
+        android:layout_marginBottom="@dimen/button_margin_bottom"
+        android:textColor="@color/ButtonText"
+        android:lines="1" />
+
+    <ProgressBar
+        android:id="@+id/pb_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/bt_login"
+        android:layout_marginRight="65dp"
+        android:visibility="gone"/>
+
+
+</RelativeLayout>
+

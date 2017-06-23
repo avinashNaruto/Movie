@@ -1,0 +1,38 @@
+{
+  "project_info": {
+    "project_number": "463674569617",
+    "project_id": "moviebaaz-8990e"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:463674569617:android:257c18ffffe5d1e3",
+        "android_client_info": {
+          "package_name": "com.example.avinash.moviebaaz"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANkzDLcDiJE_v17f8Fumbjey_nL_VCcWE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 2,
+          "analytics_property": {
+            "tracking_id": "UA-78958639-1"
+          }
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

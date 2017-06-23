@@ -1,0 +1,52 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.avinash.moviebaaz.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/my_account"
+        android:orderInCategory="200"
+        android:title="My Account"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/favourites"
+        android:title="Favourites"
+        android:icon="@drawable/ic_action_heart_icon"
+        app:showAsAction="always"
+        android:orderInCategory="50"/>
+    <item
+        android:id="@+id/rated"
+        android:orderInCategory="500"
+        android:title="Rated"
+        app:showAsAction="never"/>
+    <item
+        android:title="Log Out"
+        android:id="@+id/log_out"
+        android:orderInCategory="1000"
+        android:visible="false"
+        app:showAsAction="never"/>
+    <item
+        android:title="Movies"
+        android:id="@+id/movies"
+        android:orderInCategory="600"
+        app:showAsAction="never"/>
+    <item
+        android:title="TV"
+        android:id="@+id/tv"
+        android:orderInCategory="700"
+        app:showAsAction="never"/>
+    <item
+        android:title="Home"
+        android:id="@+id/home"
+        android:orderInCategory="800"
+        app:showAsAction="never"/>
+    <item
+        android:title="Swipe Tab"
+        android:id="@+id/swipe_tab"
+        android:orderInCategory="1100"
+        app:showAsAction="never"/>
+</menu>
